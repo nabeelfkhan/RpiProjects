@@ -1,5 +1,5 @@
 import wiringpi
-PIN_TO_SENSE = 23
+PIN_TO_SENSE = 4
 
 def gpio_callback():
     print "GPIO_CALLBACK!"

@@ -4,7 +4,7 @@ import wiringpi
 
 OUTPUT = 1
 
-PIN_TO_PWM = 1
+PIN_TO_PWM = 7
 
 wiringpi.wiringPiSetup()
 wiringpi.pinMode(PIN_TO_PWM,OUTPUT)
